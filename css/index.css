@@ -113,6 +113,10 @@ body {
 .buttons img {
   height: 50px;
 }
+.buttons .home {
+  text-decoration: none;
+  color: black;
+}
 
 hr {
   border-top: 1px dotted black;
@@ -124,6 +128,14 @@ div {
   display: flex;
   flex-wrap: nowrap;
   text-align: left;
+}
+.learnmore {
+  border-color: black;
+  border-style: solid;
+  border-radius: 18%;
+  border-width: 2px;
+  width: 120px;
+  padding: 6px 17px;
 }
 .block2 {
   display: flex;
@@ -148,6 +160,11 @@ h3 {
 section {
   display: block;
 }
+.about {
+  text-decoration: none;
+  color: black;
+}
+
 .homepage {
   font-family: roboto rubik;
   font-size: 17px;
