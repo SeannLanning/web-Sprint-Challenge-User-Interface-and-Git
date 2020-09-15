@@ -105,15 +105,31 @@ nav,
 body {
   font-family: roboto rubik;
 }
-.buttons {
+.buttons nav {
   display: flex;
   justify-content: space-evenly;
   height: 22px;
 }
-.buttons img {
-  height: 50px;
+.buttons nav img {
+  height: 45px;
 }
-.buttons .home {
+.buttons .Home {
+  text-decoration: none;
+  color: black;
+}
+.About {
+  text-decoration: none;
+  color: black;
+}
+.Products {
+  text-decoration: none;
+  color: black;
+}
+.Blog {
+  text-decoration: none;
+  color: black;
+}
+.Contact {
   text-decoration: none;
   color: black;
 }
